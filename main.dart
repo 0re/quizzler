@@ -66,9 +66,37 @@ class _QuizzlerState extends State<Quizzler> {
                 // the user picked false
               }
             ),
-          )
+          ),
+        ),
+        Row(
+          children: <Widget>[
+            Icon(
+              Icons.check,
+              color: Colors.green,
+            ),
+            Icon(
+              Icons.close,
+              color: Colors.red,
+            ),
+            Icon(
+              Icons.check,
+              color: Colors.green,
+            ),
+            Icon(
+              Icons.close,
+              color: Colors.red,
+            ),
+            Icon(
+              Icons.check,
+              color: Colors.green,
+            ),
+            Icon(
+              Icons.check,
+              color: Colors.green,
+            ),
+          ]
         )
-      ]
+      ],
     );
   }
 }
