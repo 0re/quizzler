@@ -92,7 +92,7 @@ class _QuizzlerState extends State<Quizzler> {
             ),
             Icon(
               Icons.check,
-              color: Colors.green,
+              color: Colors.green, 
             ),
           ]
         )
